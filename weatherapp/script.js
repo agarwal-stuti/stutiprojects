@@ -52,8 +52,8 @@ searchBtn.addEventListener("click", ()=> {
     checkWeather(searchBox.value);
 })
 
-const input = document.querySelector(".search input");
-input.addEventListener('keypress', (e)=>{
+//const input = document.querySelector(".search input");
+searchBox.addEventListener('keypress', (e)=>{
     if(e.key == "Enter"){
         checkWeather(searchBox.value);
     }
