@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+.navbar{
+    height: 100px;
+    background-color: #7563BD;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo{
+    display: flex;
+    color: white;
+    font-family: 'Gluten',sans-serif;
+    font-size: 40px;
+    width: 280px;
+    height: 60px;
+}
